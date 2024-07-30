@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Process Scheduling Algorithms</title>
+
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body onload="displaytq()">
+    <section id="head">
+      <h1 id="title">Process Scheduling Algorithm Simulator</h1>
+      <!-- <p id="subtitle">Process Scheduling Algorithm Simulator</p> -->
+    </section>
+
+    <section id="algorithm">
+      <div id="data">
+        Select a algorithm:
+        <select name="algorithm" id="algo" onchange="displaytq()">
+          <option value="FCFS" selected>First Come First Serve</option>
+          <option value="SJF">Shortest Job First</option>
+          <option value="SRTF">Shortest Remaining Time First</option>
+          <option value="RR">Round Robin</option>
+        </select>
+        <br />
+        <div id="timeQuantumBlock">
+          <span id="tq"
+            >Time Quantum: <input type="text" id="timequantum" onkeydown="return alphaInput()"
+          /></span>
+        </div>
+        <br />
+        <!-- Seleted element is: <span id="out">FCFS</span><br> -->
+
+        <div id="content">
+          <table id="processTable">
+            <tr id="processTableHead">
+              <th>Process ID</th>
+              <th>Arrival Time</th>
+              <th>Burst Time</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+        <br />
+
+        <button id="addProcess" onclick="addProc()">Add Process</button><br />
+        <button id="runProcess" onclick="getValues()">Run Process</button>
+      </div>
+      <br />
+      <!-- <br> -->
+      <div id="ganttchart"></div>
+
+      <br />
+      <br />
+      <div id="display"></div>
+    </section>
+
+    <!-- <button onclick="display()">Check </button> -->
+    <script src="./index.js"></script>
+  </body>
+</html>
