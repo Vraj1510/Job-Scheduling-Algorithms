@@ -1,4 +1,3 @@
-<img width="1470" alt="Screenshot 2024-07-30 at 6 57 30 PM" src="https://github.com/user-attachments/assets/fd0dc723-260f-4ec6-a782-aa0ebbc8253d"># Job Scheduling Algorithms 📅
 
 This repository contains various job scheduling algorithms commonly used in operating systems. These algorithms are essential for managing how processes are assigned to resources, such as CPU time, in a multitasking operating system.
 
@@ -33,6 +32,11 @@ To run the algorithms locally, follow these steps:
 ```
 
 Each script takes input in the form of job arrival times, burst times, and, if applicable, priorities. The output will display the order of execution and various performance metrics such as average waiting time and turnaround time.
+
+<img width="1468" alt="Screenshot 2024-07-30 at 6 58 27 PM" src="https://github.com/user-attachments/assets/44c50981-fa16-435c-b0ad-210647f9d44b">
+<img width="1470" alt="Screenshot 2024-07-30 at 6 57 30 PM" src="https://github.com/user-attachments/assets/c4a41804-12ec-4c5a-b30b-20495a1cd014">
+<img width="1470" alt="Screenshot 2024-07-30 at 6 58 03 PM" src="https://github.com/user-attachments/assets/c4a41804-12ec-4c5a-b30b-20495a1cd014">
+
 
 ## Contributing
 
