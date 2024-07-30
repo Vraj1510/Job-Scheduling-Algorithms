@@ -26,21 +26,11 @@ To run the algorithms locally, follow these steps:
 
 2. **Create a virtual environment and activate it (optional but recommended):**
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
-   ```
+   Run the HTML file
 
-3. **Install the required dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
-To run a specific job scheduling algorithm, use the corresponding script. For example, to run the First-Come, First-Served (FCFS) algorithm, use:
-
-```bash
-python fcfs.py
 ```
 
 Each script takes input in the form of job arrival times, burst times, and, if applicable, priorities. The output will display the order of execution and various performance metrics such as average waiting time and turnaround time.
