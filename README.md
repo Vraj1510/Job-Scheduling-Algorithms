@@ -28,7 +28,9 @@ To run the algorithms locally, follow these steps:
    Run the HTML file
 
 <img width="1468" alt="Screenshot 2024-07-30 at 6 58 27 PM" src="https://github.com/user-attachments/assets/44c50981-fa16-435c-b0ad-210647f9d44b">
+
 <img width="1470" alt="Screenshot 2024-07-30 at 6 57 30 PM" src="https://github.com/user-attachments/assets/c4a41804-12ec-4c5a-b30b-20495a1cd014">
+
 <img width="1468" alt="Screenshot 2024-07-30 at 9 31 56 PM" src="https://github.com/user-attachments/assets/ec1a505a-e293-48df-9a61-10b0d79394aa">
 
 ## Usage
